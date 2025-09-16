@@ -1,75 +1,68 @@
-# 🌐 My Portfolio | พอร์ตโฟลิโอของฉัน  
+```text
+███████╗ ██████╗ ██████╗ ███████╗ ██████╗ ██╗   ██╗
+██╔════╝██╔═══██╗██╔══██╗██╔════╝██╔═══██╗╚██╗ ██╔╝
+█████╗  ██║   ██║██████╔╝█████╗  ██║   ██║ ╚████╔╝ 
+██╔══╝  ██║   ██║██╔═══╝ ██╔══╝  ██║   ██║  ╚██╔╝  
+██║     ╚██████╔╝██║     ███████╗╚██████╔╝   ██║   
+╚═╝      ╚═════╝ ╚═╝     ╚══════╝ ╚═════╝    ╚═╝   
+```
 
-ยินดีต้อนรับสู่ **พอร์ตโฟลิโอออนไลน์** ของผมครับ  
-เว็บไซต์นี้สร้างขึ้นเพื่อแสดงตัวตน ทักษะ และเส้นทางการเรียนรู้ของผม  
-แม้ตอนนี้ยังไม่มีผลงานชิ้นใหญ่ แต่ผมกำลังพัฒนาและเรียนรู้ต่อไปทุกวัน 💻✨  
+# ⚡ Portfolio - Dark Hacker Edition ⚡
 
----
-
-## 📖 เกี่ยวกับฉัน (About Me)
-
-- 👨‍💻 นักเรียนที่เริ่มต้นเขียนโค้ด  
-- 🤖 ใช้ **AI** เป็นเครื่องมือหลักในการเรียนรู้และเขียนโค้ด  
-- 🛠️ ซ่อมคอมพิวเตอร์ ติดตั้ง Windows และโปรแกรมพื้นฐานได้  
-- 📚 กำลังฝึก **PHP, JavaScript, .NET MAUI**  
-
----
-
-## 🎯 เป้าหมาย (Goals)
-
-- พัฒนาผลงานโปรเจกต์แรกและอัปเดตลงในพอร์ตโฟลิโอนี้  
-- ฝึกการเขียนโค้ดด้วยตัวเองมากขึ้น (ไม่พึ่ง AI เพียงอย่างเดียว)  
-- สร้างเว็บไซต์/แอปเล็ก ๆ ที่ใช้งานได้จริง  
+ยินดีต้อนรับสู่โลกของ **esakung555**
+ที่นี่คือฐานข้อมูลของทักษะและการเรียนรู้ของผม (แม้ยังไม่มีโปรเจคใหญ่)
 
 ---
 
-## 🌟 Live Demo  
+## 🛡️ Badges
 
-🔗 [คลิกที่นี่เพื่อดูเว็บไซต์พอร์ตโฟลิโอของผม](https://esakung555.github.io/)  
-
----
-
-## 📬 ติดต่อ (Contact)
-
-- GitHub: [esakung555](https://github.com/esakung555)  
+![GitHub followers](https://img.shields.io/github/followers/esakung555?style=social)
+![GitHub stars](https://img.shields.io/github/stars/esakung555?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/esakung555/esakung555.github.io)
+![Top Language](https://img.shields.io/github/languages/top/esakung555/esakung555.github.io)
+![License](https://img.shields.io/github/license/esakung555/esakung555.github.io)
 
 ---
 
-# English Version 🇬🇧  
+## 💻 About Me
 
-Welcome to my **online portfolio** 🚀  
-This website is built to showcase my journey, skills, and personal growth as a learner and developer.  
-Even though I don’t have real projects yet, I’m learning every day and moving forward 💻✨  
-
----
-
-## 📖 About Me
-
-- 👨‍💻 Beginner in coding  
-- 🤖 Mainly using **AI** to help me learn and code  
-- 🛠️ Can repair computers, install Windows and basic software  
-- 📚 Currently learning **PHP, JavaScript, .NET MAUI**  
+```
+User: esakung555
+Skills: AI-assisted coding, basic PHP, JavaScript
+Hardware: PC repair, Windows install, software setup
+Goals: Learn more, create real projects, deploy online
+```
 
 ---
 
-## 🎯 Goals
+## 🚀 GitHub Stats
 
-- Build and share my first real project here  
-- Improve my coding ability without relying too much on AI  
-- Create small but practical websites/apps  
-
----
-
-## 🌟 Live Demo  
-
-🔗 [Click here to view my portfolio website](https://esakung555.github.io/)  
+![esakung555 GitHub stats](https://github-readme-stats.vercel.app/api?username=esakung555\&show_icons=true\&theme=dark\&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=esakung555\&layout=compact\&theme=dark)
 
 ---
 
-## 📬 Contact  
+## 🌟 Live Demo
 
-- GitHub: [esakung555](https://github.com/esakung555)  
+[Portfolio Online](https://esakung555.github.io/)
 
 ---
 
-✨ ขอบคุณที่แวะเข้ามาดูครับ / Thanks for visiting!  
+## 📬 Contact
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=your@gmail.com&su=Portfolio%20Contact&body=Hello%20esakung555!)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/esakung555)
+
+---
+
+## 📈 Visitor Counter
+
+![Visitor Count](https://profile-counter.glitch.me/esakung555/count.svg)
+
+---
+
+⚡ **Notes:**
+
+* แม้ยังไม่มีโปรเจค แต่กำลังพัฒนาอย่างต่อเนื่อง
+* ใช้ AI ช่วย แต่ก็พยายามโค้ดเองด้วย
+* ติดตามความเจ๋งได้จาก GitHub stats และ live demo
