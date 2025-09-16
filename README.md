@@ -55,12 +55,6 @@ Goals: Learn more, create real projects, deploy online
 
 ---
 
-## 📈 Visitor Counter
-
-![Visitor Count](https://profile-counter.glitch.me/esakung555/count.svg)
-
----
-
 ⚡ **Notes:**
 
 * แม้ยังไม่มีโปรเจค แต่กำลังพัฒนาอย่างต่อเนื่อง
