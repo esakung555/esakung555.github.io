@@ -31,7 +31,6 @@
 
 ## 📬 ติดต่อ (Contact)
 
-- Email: [your@gmail.com](mailto:your@gmail.com)  
 - GitHub: [esakung555](https://github.com/esakung555)  
 
 ---
@@ -69,7 +68,6 @@ Even though I don’t have real projects yet, I’m learning every day and movin
 
 ## 📬 Contact  
 
-- Email: [your@gmail.com](mailto:your@gmail.com)  
 - GitHub: [esakung555](https://github.com/esakung555)  
 
 ---
