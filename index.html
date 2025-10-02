@@ -1,85 +1,146 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>พอร์ตโฟลิโอของฉัน</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
-  <style>
-    body { font-family: 'Kanit', sans-serif; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srithandon - Portfolio</title>
+    <link rel="shortcut icon" href="./assets/img/logo it-Photoroom.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="bg-[#1E3A8A] text-white">
 
-  <!-- Navbar -->
-  <nav class="fixed w-full bg-[#1E3A8A] shadow-md z-50">
-    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
-      <h1 class="text-2xl font-bold">Portfolio</h1>
-      <ul class="hidden md:flex space-x-6 text-lg">
-        <li><a href="#about" class="hover:text-[#60A5FA] transition">เกี่ยวกับ</a></li>
-        <li><a href="#projects" class="hover:text-[#60A5FA] transition">ผลงาน</a></li>
-        <li><a href="#skills" class="hover:text-[#60A5FA] transition">ทักษะ</a></li>
-        <li><a href="#contact" class="hover:text-[#60A5FA] transition">ติดต่อ</a></li>
-      </ul>
-    </div>
-  </nav>
+<body>
+    <!-- Light/Dark theme button -->
 
-  <!-- Hero Section -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-    <h1 class="text-5xl font-bold mb-4 animate-bounce">สวัสดีครับ ผมคือ <span class="text-[#60A5FA]">สีทันดรน์ บัวพรหม</span></h1>
-    <p class="text-xl mb-6 max-w-2xl">นักเรียนที่เขียนโค้ดได้นิดหน่อย ใช้ AI เป็นหลัก ซ่อมคอม ลงวินโดวส์ และติดตั้งโปรแกรมพื้นฐานได้</p>
-    <a href="#projects" class="bg-[#60A5FA] text-[#1E3A8A] font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-white transition">ดูผลงาน (แม้จะยังไม่มี)</a>
-  </section>
+    <!-- Header -->
+    <header>
+        <div class="nav-bar">
+            <a href="#" class="logo">Srithandon</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <!-- About Section -->
-  <section id="about" class="py-20 bg-[#60A5FA] text-[#1E3A8A] px-6">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-6"><i class="ph-user-bold"></i> เกี่ยวกับฉัน</h2>
-      <p class="text-lg leading-relaxed">ผมกำลังเรียนรู้และฝึกฝน <span class="font-semibold">PHP, JavaScript</span> ใช้ AI เป็นตัวช่วยหลัก แต่ก็ยังพยายามเขียนโค้ดเองบ้าง รวมถึงมีความสามารถในการซ่อมคอม ติดตั้งวินโดวส์และโปรแกรมพื้นฐาน</p>
-    </div>
-  </section>
+    <!-- Home section -->
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="media-icons">
+                <a href="https://www.facebook.com/srithandon.baoprom"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/srithandon/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/esakung555"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="info">
+                <h2>Hi, I am Srithandon</h2>
+                <h3>Front-end Developer</h3>
+                <p>I create stunning websites for your business, Highly experienced in web design and
+                    development.
+                </p>
+                <a href="" class="btn">Contact Me <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="home-img">
+                <img src="./assets/img/Srithandon.png" width="500px" alt="">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">Scroll Down <i class="fas fa-arrow-down"></i></a>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="py-20 px-6">
-    <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-10"><i class="ph-folder-notch-bold"></i> ผลงาน</h2>
-      <div class="bg-white text-[#1E3A8A] rounded-2xl shadow-lg p-10">
-        <h3 class="text-2xl font-semibold mb-4">ยังไม่มีผลงาน</h3>
-        <p class="text-lg">ตอนนี้ยังไม่ได้สร้างโปรเจคใด ๆ แต่กำลังอยู่ในช่วงเรียนรู้และเตรียมทำงานจริงเร็ว ๆ นี้</p>
-      </div>
-    </div>
-  </section>
+    <!-- About section -->
+    <section class="about section" id="about">
+        <div class="container flex-center">
+            <h1 class="section-title-01">About Me</h1>
+            <h2 class="section-title-02">About Me</h2>
+            <div class="content flex-center">
+                <div class="about-img">
+                    <img src="./assets/img/Srithandon2.png" width="600px" alt="">
+                </div>
+                <div class="about-info">
+                    <div class="description">
+                        <h3>I'm Srithandon</h3>
+                        <h4>A Lead <span>Front-end Developer</span> based in <span>Thailand</span></h4>
+                        <p>ฉันออกแบบและพัฒนาบริการสำหรับลูกค้าที่มือใหม่ด้านการสร้างเว็บไซต์ และใช้ AI สร้างเว็บไซต์ที่มีสไตล์และทันสมัย ​​
+                            ความปรารถนาของฉันคือการออกแบบประสบการณ์ผู้ใช้ดิจิทัลผ่านการโต้ตอบที่มีความหมาย ลองดูผลงานของฉัน</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="py-20 bg-[#60A5FA] text-[#1E3A8A] px-6">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-6"><i class="ph-lightbulb-bold"></i> ทักษะ</h2>
-      <ul class="space-y-4 text-left md:text-center">
-        <li>✅ ใช้ AI เพื่อช่วยพัฒนาโปรแกรมและเขียนโค้ด</li>
-        <li>✅ ติดตั้งและตั้งค่า Windows</li>
-        <li>✅ ลงโปรแกรมและแก้ปัญหาคอมพิวเตอร์เบื้องต้น</li>
-      </ul>
-    </div>
-  </section>
+    <!-- Skills section -->
+    <section class="skills section" id="skills">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Skills</h1>
+            <h2 class="section-title-02">Skills</h2>
+            <div class="content">
+                <div class="skills-description">
+                    <h3>Education & Skills</h3>
+                    <p>เป็นเวลากว่า 5 ปีแล้วที่ได้เรียนรู้ของหาประสบการณ์เพื่อใช้ในด้านการพัฒนาเว็บสมัยใหม่ ภาษาการเขียนโปรแกรมเว็บและแอปพลิเคชันยุคใหม่</p>
+                </div>
+                <div class="skills-info education-all">
+                    <div class="education">
+                        <h4><label for="">Education</label></h4>
+                        <ul class="edu-list">
+                            <li class="item">
+                                <span class="year">2017-2019</span>
+                                <p><span>สําเร็จการศึกษาระดับชั้นมัธยมศึกษาตอนต้น</span> - จากโรงเรียนทีโอเอวิทยา เทศบาล 1 วัดคำสายทอง</p>
+                            </li>
+                            <li class="item">
+                                <span class="year">2020-2022</span>
+                                <p><span>สําเร็จการศึกษาประกาศนียบัตรวิชาชีพ</span> - จากวิทยาลัยการอาชีพนวมินทราชินีมุกดาหาร</p>
+                            </li>
+                            <li class="item">
+                                <span class="year">2023-2024</span>
+                                <p><span>สําเร็จการศึกษาประกาศนียบัตรวิชาชีพชั้นสูง</span> - จากวิทยาลัยเทคนิคนวมินทราชินีมุกดาหาร</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="education">
+                        <h4><label for="">Skills</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="line html"></div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                    <span>20%</span>
+                                </div>
+                                <div class="line css"></div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <span>Javascript</span>
+                                    <span>10%</span>
+                                </div>
+                                <div class="line javascript"></div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <span>PHP</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="line php"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="py-20 px-6">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-6"><i class="ph-envelope-bold"></i> ติดต่อ</h2>
-      <p class="mb-6">หากสนใจหรือต้องการพูดคุย สามารถติดต่อได้ทางอีเมลหรือ GitHub</p>
-      <div class="space-x-4">
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=esakung555roth@gmail.com&su=ติดต่อจากเว็บไซต์พอร์ตโฟลิโอ&body=สวัสดีครับ ฉันสนใจติดต่อคุณ..." class="bg-[#60A5FA] text-[#1E3A8A] font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-white transition">ส่งอีเมล</a>
-        <a href="https://github.com/esakung555" target="_blank" class="bg-white text-[#1E3A8A] font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-[#60A5FA] hover:text-white transition">GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-6 text-center bg-[#1E3A8A] text-sm border-t border-[#60A5FA]">
-    <p>© 2025 สีทันดรน์ บัวพรหม พัฒนาโดยใช้ ❤️ และ TailwindCSS</p>
-  </footer>
-
+    <!-- External scripts -->
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
